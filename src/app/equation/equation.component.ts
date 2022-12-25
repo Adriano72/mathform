@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
+import { delay } from 'rxjs/operators';
 import { MathValidators } from '../math-validators';
 
 @Component({
